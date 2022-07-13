@@ -6,9 +6,29 @@
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
 }
+
+.trybewarts-header-logo {
+  width: 100px;
+}
+
 .trybewarts-login {
   display: flex;
 }
-#trybewarts-header-title {
+
+.main {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
 }
