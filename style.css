@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
@@ -45,9 +46,9 @@
   flex-direction: column;
   gap: 8px;
 }
+
  #content-to-learn {
   display: flex;
   flex-wrap: wrap;
   max-width: 200px;
-
  }
