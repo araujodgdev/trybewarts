@@ -21,6 +21,12 @@
 
 .main {
   display: flex;
+  justify-content: space-around;
+}
+
+.radio-checks {
+  display: flex;
+  gap: 50px;
 }
 
 #evaluation-form {
@@ -32,3 +38,15 @@
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+#familia {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+ #content-to-learn {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 200px;
+
+ }
