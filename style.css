@@ -47,8 +47,8 @@
   gap: 8px;
 }
 
- #content-to-learn {
+#content-to-learn {
   display: flex;
   flex-wrap: wrap;
   max-width: 200px;
- }
+}
