@@ -1,14 +1,14 @@
-let buttonEntrar = document.getElementById("button-entrar");
+const buttonEntrar = document.getElementById('button-entrar');
 
-buttonEntrar.addEventListener("click", function (event) {
-  let inputEmail = document.getElementById("input-email").value;
-  let inputSenha = document.getElementById("input-senha").value;
-  let testeEmail = inputEmail === "tryber@teste.com";
-  let testeSenha = inputSenha === "123456";
+buttonEntrar.addEventListener('click', (event) => {
+  const inputEmail = document.getElementById('input-email').value;
+  const inputSenha = document.getElementById('input-senha').value;
+  const testeEmail = inputEmail === 'tryber@teste.com';
+  const testeSenha = inputSenha === '123456';
   if (testeEmail && testeSenha) {
-    alert("Olá, Tryber!");
+    alert('Olá, Tryber!');
   } else {
-    alert("Email ou senha inválidos.");
+    alert('Email ou senha inválidos.');
   }
   event.preventDefault();
 });
