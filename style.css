@@ -53,7 +53,6 @@
   max-width: 200px;
 }
 
-.teste-01 {
+.flexbox {
   display: flex;
-  flex-direction: row;
 }
