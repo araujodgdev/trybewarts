@@ -54,8 +54,7 @@
 }
 
 .flexbox {
-   display:flex;
-  /* flex-direction:row; */
+  display: flex;
 }
 
 .flexbox-collum {
