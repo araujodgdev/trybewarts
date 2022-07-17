@@ -53,6 +53,10 @@
   max-width: 200px;
 }
 
+#form-data {
+  display: none;
+}
+
 .flexbox {
   display: flex;
 }
