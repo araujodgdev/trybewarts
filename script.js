@@ -27,7 +27,7 @@ function enableSubmit() {
 
 agree.addEventListener('change', enableSubmit);
 
-// segue abaixo a implementação do contador de caracteres do text area - Requisito 20;
+// segue abaixo a implementação do contador de caracteres do text area - Requisito 20
 const textArea = document.getElementById('textarea');
 const charCounter = document.getElementById('counter');
 let charLeft = 500;
@@ -39,7 +39,7 @@ textArea.addEventListener('input', () => {
   charCounter.innerHTML = `Caracteres restantes: ${charLeft}`;
 });
 
-//
+// segue abaixo implementação do segundo form da página - Requisito 21
 const nome = document.getElementById('data-name');
 const email = document.getElementById('data-email');
 const house = document.getElementById('data-house');
